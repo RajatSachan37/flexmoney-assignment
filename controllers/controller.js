@@ -76,7 +76,7 @@ exports.changeBatch = async (req, res) => {
 
   // check if user is registered or not
   if (!user) {
-    res.send("User is not registered");
+    res.render("changeBatch-fail");
     return;
   }
 
@@ -90,7 +90,7 @@ exports.changeBatch = async (req, res) => {
     console.log("Updated user:", updatedUser);
     res.render("changeBatch-success");
   } else {
-    res.send("User is not enrolled");
+    res.render("changeBatch-fail");
   }
 
   // res.send("change batch patch route for username:" + req.body.username);
