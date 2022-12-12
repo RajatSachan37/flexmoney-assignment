@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Payment Form</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<style>
+			h1{
+    
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+		</style>
+		
+	</head>
+
+	
+
+	<body>
+		<form action="/complete-payment/<%=user_id%>?_method=PATCH" method="POST">
+			<h1>Payment for Yoga Classes</h1>
+		<div id="box" class="jumbotron">
+			<center>
+			  <h2>Complete your enrollment by paying INR 500/-</h2>
+			  
+			  <label>
+				  
+			  <button class="btn btn-block btn-primary">Click here to pay</button>
+		  </label>
+			  
+			</center>
+			
+		</div>
+	
+
+            
+            
+        </form>
+	</body>
+
+</html>
+
+

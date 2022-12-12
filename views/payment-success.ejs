@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    
+    <title>Payment Successful</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href='/stylesheets/main.css'> -->
+</head>
+<body>
+
+
+<form action="/" method="POST" enctype="multipart/form-data">
+  <div class="container">
+    <h2>Payment Successful</h2>
+    <div id="box" class="jumbotron">
+      <center>
+        <h2>Thank You!</h2>
+        <p><span id="tick" class="glyphicon glyphicon-ok" aria-hidden="true"></span> Payment and enrollment was successful for: <%=user.username%></p>
+        <p>Reference id: <%=user._id%></p>
+        <p>Your Batch: <%=user.batch%></p>
+  </center>
+  </div>
+    
+  </div>
+  </div>
+   </form>
+</body>
+</html>

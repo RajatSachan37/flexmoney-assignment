@@ -1,0 +1,17 @@
+h1{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+p {
+    text-align: center;
+    text-decoration: none;
+}
+
+#form{
+	width:25%;
+	margin: 50px auto;
+
+}
