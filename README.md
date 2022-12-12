@@ -1,6 +1,6 @@
 # Flexmoney-Assignment
 
-It is a web application which enrolls its users to Yoga classes.
+It is a web application which enrolls its users to Yoga classes.\
 Deployed Link: https://flexmoney-assignment.up.railway.app/
 
 ## Tools/Technologies Used
